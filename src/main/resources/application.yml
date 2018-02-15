@@ -19,10 +19,10 @@ spring:
         encrypt.enabled: true
         git:
           #uri: https://github.com/carnellj/config-repo/
-          uri: https://github.com/brightsailor/cofig-repository.git
-          searchPaths: licensingservice,organizationservice
-          username: native-cloud-apps
-          password: 0ffended
+          uri: https://github.com/brightsailor/cofig-repository.git/
+          searchPaths: src/main/resources/config/licensingservice/,src/main/resources/config/organizationservice
+          username: wangyi2070@163.com  
+          password: goldbird19
 
 
 ####

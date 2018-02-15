@@ -1,0 +1,10 @@
+version: '2'
+services:
+  configserver:
+    image: tom/eagleeye-confsvr:ch3
+    build: 
+       context: ../
+    ports:
+       - "8888:8888"
+    environment:
+      ENCRYPT_KEY:       "IMSYMMETRIC"
