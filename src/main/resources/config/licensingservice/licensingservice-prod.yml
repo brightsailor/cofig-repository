@@ -1,5 +1,5 @@
 example.property: "I AM IN THE DEFAULT"
-spring.jpa.database: "postgres"
+spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
 spring.database.driverClassName: "org.postgresql.Driver"
