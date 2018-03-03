@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-example.organization.property: "I AM THE DEFAULT ORGANIZATION SERVICE"
-=======
 #example.property: "I AM IN THE PROD"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
@@ -15,4 +12,3 @@ spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialec
 redis.server: "redis"
 redis.port: "6379"
 signing.key: "345345fsdfsf5345"
->>>>>>> branch 'master' of https://github.com/brightsailor/cofig-repository.git
