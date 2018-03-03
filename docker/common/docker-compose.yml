@@ -15,6 +15,12 @@ services:
     ports:
       - "5432:5432"
     environment:
+<<<<<<< HEAD
       POSTGRES_USER: "user"
       POSTGRES_PASSWORD: "password"
       POSTGRES_DB:       "eagle_eye"
+=======
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "p0stgr@s"
+      POSTGRES_DB:       "eagle_eye_local"
+>>>>>>> branch 'master' of https://github.com/brightsailor/cofig-repository.git

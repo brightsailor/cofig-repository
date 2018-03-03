@@ -22,6 +22,7 @@ build/
 nbbuild/
 dist/
 nbdist/
+<<<<<<< HEAD
 .nb-gradle/
 bin/application.yml
 bin/bootstrap.yml
@@ -39,3 +40,9 @@ bin/main/application.yml
 *.yml
 bin/main/com/tom/cloud/confsvr/ConfigServerApplication.class
 *.class
+=======
+.nb-gradle/
+>>>>>>> branch 'master' of https://github.com/brightsailor/cofig-repository.git
+*.yml
+*.yml
+src/main/resources/config/organizationservice/organizationservice.yml

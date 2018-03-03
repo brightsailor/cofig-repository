@@ -16,6 +16,7 @@ spring:
   cloud:
     config:
       server:
+<<<<<<< HEAD
         encrypt.enabled: false
         git:
           #uri: https://github.com/carnellj/config-repo/
@@ -37,6 +38,18 @@ logging:
     com.thoughtmechanix: DEBUG
 ###
 #
+=======
+        encrypt.enabled: true
+        git:
+          #uri: https://github.com/carnellj/config-repo/
+          uri: https://github.com/brightsailor/cofig-repository.git
+          searchPaths: licensingservice,organizationservice
+          username: native-cloud-apps
+          password: 0ffended
+
+
+####
+>>>>>>> branch 'master' of https://github.com/brightsailor/cofig-repository.git
 #Classpath and file-based solution
 ####
 

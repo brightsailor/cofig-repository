@@ -11,4 +11,7 @@ ADD  ./configurationserver.jar /usr/local/configserver/
 ADD run.sh run.sh
 RUN chmod +x run.sh
 CMD ./run.sh
+<<<<<<< HEAD
 EXPOSE 8888
+=======
+>>>>>>> branch 'master' of https://github.com/brightsailor/cofig-repository.git
