@@ -38,7 +38,11 @@ jar
 dependencies {
 	compile('org.springframework.cloud:spring-cloud-starter-config')
 	compile('org.springframework.cloud:spring-cloud-config-server')
+//	compile('org.springframework.cloud:spring-cloud-config-client')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	// Spring eureka
+	compile('org.springframework.cloud:spring-cloud-starter-eureka')
+		
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
@@ -54,4 +58,5 @@ task copyLib(type: Copy) {
     include '*.jar'
     into 'docker/'
 }
-copyLib.dependsOn assemble
+//assemble.dependsOn clean;
+copyLib.dependsOn assemble;

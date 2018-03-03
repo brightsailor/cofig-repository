@@ -2,6 +2,6 @@ version:  '2'
 services:
    configserver:
       extends:
-         file: ../common/docker-compose.yml
+         file: ../common/docker-compose-noDB.yml
          service: configserver
 

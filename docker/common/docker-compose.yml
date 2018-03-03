@@ -15,6 +15,6 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: "postgres"
-      POSTGRES_PASSWORD: "p0stgr@s"
-      POSTGRES_DB:       "eagle_eye_local"
+      POSTGRES_USER: "user"
+      POSTGRES_PASSWORD: "password"
+      POSTGRES_DB:       "eagle_eye"

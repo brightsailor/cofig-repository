@@ -16,16 +16,27 @@ spring:
   cloud:
     config:
       server:
-        encrypt.enabled: true
+        encrypt.enabled: false
         git:
           #uri: https://github.com/carnellj/config-repo/
-          uri: https://github.com/brightsailor/cofig-repository.git/
-          searchPaths: src/main/resources/config/licensingservice/,src/main/resources/config/organizationservice
+          uri: https://github.com/brightsailor/cofig-repository/
+          default-label: master
+          searchPaths: src/main/resources/config/licensingservice/,src/main/resources/config/organizationservice/,specialroutesservice,zuulservice
           username: wangyi2070@163.com  
           password: goldbird19
+          force-pull: true
+management:
+   security:
+    enabled: false
 
-
-####
+#Setting logging levels
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.thoughtmechanix: DEBUG
+###
+#
 #Classpath and file-based solution
 ####
 

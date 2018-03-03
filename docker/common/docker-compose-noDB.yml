@@ -1,7 +1,7 @@
 version: '2'
 services:
   configserver:
-    image: tom/eagleeye-confsvr:ch3
+    image: eagleeye-confsvr:ch3
     build: 
        context: ../
     ports:
