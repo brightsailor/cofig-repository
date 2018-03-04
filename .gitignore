@@ -41,3 +41,9 @@ bin/main/com/tom/cloud/confsvr/ConfigServerApplication.class
 =======
 .nb-gradle/
 >>>>>>> branch 'master' of https://github.com/brightsailor/cofig-repository.git
+bin/main/config/authenticationservice/authenticationservice-dev.yml
+bin/main/config/authenticationservice/authenticationservice-prod.yml
+bin/main/config/authenticationservice/authenticationservice.yml
+bin/main/config/specialroutesservice/specialroutesservice-dev.yml
+bin/main/config/specialroutesservice/specialroutesservice-prod.yml
+bin/main/config/specialroutesservice/specialroutesservice.yml
