@@ -14,8 +14,8 @@ hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
 #hystrix.command.default.execution.timeout.enabled: false
 #hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 2
 ribbon.eureka.enabled: true
-ribbon.eureka.ReadTimeout: 60000
-ribbon.eureka.ConnectTimeout: 60000
+ribbon.eureka.ReadTimeout: 6000
+ribbon.eureka.ConnectTimeout: 6000
 feign.hystrix.enabled: true
 #spring.cloud.loadbalancer.retry.enabled: true
 
