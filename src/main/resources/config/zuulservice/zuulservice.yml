@@ -2,6 +2,7 @@ zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
+zuul.routes.specialroutesservice: /specialroutes/**
 zuul.routes.authenticationservice: /auth/**
 #zuul.routes.licensestatic.path: /licensestatic/**
 #zuul.routes.licensestatic.url:  http://licenseservice-static:8081
@@ -10,7 +11,10 @@ zuul.routes.authenticationservice: /auth/**
 #ribbon.eureka.enabled: false
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 66000
+#hystrix.command.default.execution.timeout.enabled: false
 #hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 2
-#licensingservice.ribbon.ReadTimeout: 2
+
+#spring.cloud.loadbalancer.retry.enabled: true
+
 signing.key: "345345fsdfsf5345"
